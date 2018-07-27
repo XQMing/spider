@@ -4,7 +4,7 @@ from scrapy.conf import settings
 from dp.items import DpItem
 from scrapy.selector import Selector
 import os
-os.environ["http_proxy"] = "http://qx11939:Ming1204@172.19.194.60:8080"
+os.environ["http_proxy"] = "http://username:password@172.19.194.60:8080"
 
 class DpshopSpider(scrapy.Spider):
     name = 'dpshop'
