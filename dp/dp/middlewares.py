@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
-
 # Define here the models for your spider middleware
 #
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-
 from scrapy import signals
 import random
 from scrapy.downloadermiddlewares.httpproxy import HttpProxyMiddleware
@@ -27,7 +25,6 @@ from scrapy.downloadermiddlewares.httpproxy import HttpProxyMiddleware
 #         {"ipaddr": "47.52.44.31:8080"},
 #         {"ipaddr": "202.109.237.35:80"}
 #         ]
-
 
 class DpSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
